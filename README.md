@@ -56,7 +56,14 @@ I've spent a decent amount of time searching on the internet for a "delete all" 
 #### Downloading the script and running it (The Easy Part)
 
 1. Install Git
-  - On windows you can find the installer at the following link [Git Bash](https://git-scm.com/download/win)
-  - Most Mac's already come with Git installed
+   - On windows you can find the installer at the following link [Git Bash](https://git-scm.com/download/win)
+   - Most Mac's already come with Git installed
 2. Clone the repository where the script is by running the following command
-  - `git clone github.com/willtech/
+   - `git clone https://github.com/willtech/delete_drive`
+3. Copy the credentials file you downloaded at the end of step 9 in the previous section to the root of the repository
+4. Rename the file to `client_secret.json`
+5. Run the script with `python del.py`
+
+### Modifying the script
+
+Lines 52-53 are where the script discriminates on what types of files to delete. Feel free to modify those lines to delete the files that you deem necessary.
