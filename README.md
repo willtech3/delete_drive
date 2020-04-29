@@ -68,4 +68,4 @@ I've spent a decent amount of time searching on the internet for a "delete all" 
 
 ### Modifying the script
 
-Lines 52-53 are where the script discriminates on what types of files to delete. Feel free to modify those lines to delete the files that you deem necessary.
+Lines 52-53 of del.py are where the script discriminates on what types of files to delete. Feel free to modify those lines to delete the files that you deem necessary.
