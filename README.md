@@ -68,4 +68,4 @@ I've spent a decent amount of time searching on the internet for a "delete all" 
 
 ### Modifying the script
 
-Line 47 of `del.py` is where the script determines what types of files to delete. Feel free to modify those lines to delete the types of files you deem necessary. You can also just delete them and unindent the below lines if you want to delete everything.
+Line 47 of `del.py` is where the script determines what types of files to delete. Feel free to modify those lines to delete the types of files you deem necessary. You can also just delete it and unindent the below lines if you want to try to delete everything.
