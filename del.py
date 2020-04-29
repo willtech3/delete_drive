@@ -50,7 +50,7 @@ def main():
           print(f"{str(file_dict['name'])} has been deleted.")
         except HttpError as ex:
           if ex.resp.status == 403:
-              print(f"ERROR: updating permission for file: {file_dict['name']}", file=sys.stderr)
+              print(f"ERROR: insufficient permissions to delete file: {file_dict['name']}", file=sys.stderr)
 
 if __name__ == '__main__':
   main()
