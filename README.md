@@ -58,7 +58,7 @@ I've spent a decent amount of time searching on the internet for a "delete all" 
 #### Downloading the script and running it (The Easy Part)
 
 1. Install Git
-   - On windows you can find the installer at the following link [Git Bash](https://git-scm.com/download/win)
+   - On Windows you can find the installer at the following link [Git Bash](https://git-scm.com/download/win)
    - Most Mac's already come with Git installed
 2. Clone the repository where the script is by running the following command
    - `git clone https://github.com/willtech3/delete_drive`
