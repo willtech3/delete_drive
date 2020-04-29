@@ -4,7 +4,7 @@ I've spent a decent amount of time searching on the internet for a "delete all" 
 
 **This is a short script that solves that problem.**
 
- **Note**: This will only work for files in which you are the owner, files in your Google Drive that were shared with you by someone else the script will not be able to delete but you can remove them manually from your Drive on the Google Drive website.
+ **Note**: This will only work for files in which you are the owner. The script will not be able to delete files that were shared with you even if you have write access. You can still delete those files from your Google Drive instance through the UI or programatically using Selenium if you're especially clever.
 
 ### How to use it starting from no technical knowledge (Windows or Mac)
 
