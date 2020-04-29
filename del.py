@@ -50,8 +50,11 @@ def main():
     file_dicts = response.get('files', [])
     for file_dict in file_dicts:
       if file_dict['name'].endswith(".tif") or file_dict['name'].endswith(".tiff"):
-        service.files().delete(fileId=file_dict['id']).execute()
-        print(f"{str(file_dict['name'])} has been deleted.")
+        try:
+          service.files().delete(fileId=file_dict['id']).execute()
+          print(f"{str(file_dict['name'])} has been deleted.")
+        except Exception as ex:
+          print(f"Unable to delete file {file_dict['name']} due to: {ex}")
 
 if __name__ == '__main__':
   main()
